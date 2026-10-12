@@ -1,0 +1,4 @@
+tweets-data/
+__pycache__/
+*.png
+.env
