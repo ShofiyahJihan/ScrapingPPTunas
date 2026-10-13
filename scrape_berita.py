@@ -21,13 +21,14 @@ FOLDER_HASIL = "hasil_analisis"
 MAX_LINK_DICEK = 100      # maksimal link t.co yang diurai (diurutkan dari yang paling sering dibagikan)
 MAX_ARTIKEL = 40          # maksimal artikel yang di-scrape
 JEDA_DETIK = 2            # jeda antar permintaan supaya tidak membebani server
-# ========================
+
  
-# Link ke situs ini dilewati (bukan artikel yang bisa di-scrape dengan requests)
+# Link ke situs ini dilewati 
 DOMAIN_DILEWATI = (
     "x.com", "twitter.com", "t.co", "twimg.com", "youtube.com", "youtu.be",
     "instagram.com", "facebook.com", "fb.com", "tiktok.com", "threads.net",
     "discord.gg", "discord.com", "wa.me", "whatsapp.com", "t.me",
+    "antaranews.com",
 )
  
 HEADERS_ARTIKEL = {
