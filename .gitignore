@@ -1,4 +1,2 @@
-   __pycache__/
-   .env
-   tweets-data/
-   berita-data/
+__pycache__/
+.env
